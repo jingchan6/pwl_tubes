@@ -1,0 +1,43 @@
+.wrap{
+ width: 900px;
+ margin: 10px auto;
+}
+
+.wrap .upper-content{
+ background: grey;
+ float: left;
+ height: 8%;
+ width: 75%;
+}
+
+.cari {
+ float: right;
+}
+
+.urut{
+ float: right;
+}
+
+.wrap .content{
+ float: left;
+ height: 92%;
+ width: 75%;
+}
+
+.item-list{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ margin: 5px;
+}
+
+item{
+ font-size: 2rem;
+ line-height: 1;
+ text-align: center;
+ padding: 3rem;
+ background: pink;
+ border: 1px solid tomato;
+ color: blue;
+ margin: 5px;
+}
