@@ -4,11 +4,21 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// landing
+import IndexLanding from './landingpage/index';
+import Login from './access/login';
+
+import {Route, Link,Switch, BrowserRouter as Router} from 'react-router-dom';
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+<Router>
+    <Switch>
+        <Route exact path="/" component={IndexLanding} />
+        <Route exact path="/login" component={Login} />
+    </Switch> 
+</Router>,  
+  
+document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
