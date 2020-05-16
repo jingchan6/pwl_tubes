@@ -26,7 +26,7 @@ class navbar extends Component {
                         <div class ="float-right">
                             <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Beranda<span class="sr-only">(current)</span></a>
+                                <Link to="/" className="nav-link">Beranda</Link>
                             </li>
                             <li className="nav-item">
                                 <div class="dropdown">
@@ -41,10 +41,12 @@ class navbar extends Component {
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Kontak Kami</a>
+                                <a class="nav-link" href="#footer">Kontak Kami</a>
                             </li>
                             <li>
-                                <i class="lni lni-cart dropdown-menu-style font-cart"></i>
+                                <Link to="/Cart" className="dropdown-item cart-icon">
+                                    <i class="lni lni-cart dropdown-menu-style font-cart"></i>
+                                </Link>
                             </li>
                             <li>
                                 <div className="dropdown">

@@ -1,0 +1,63 @@
+.card-icon {
+    margin-top: -5px;
+}
+
+.cart-icon:active {
+    background-color: none !important;
+}
+
+.img-item{
+    width: 200px;
+    height: 200px;
+}
+
+.form-checkbox { 
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.checkbox-cart {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.dataCart {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.hapus{
+    margin: auto;
+    color: red;
+}
+
+.txtCart {
+    width: 50px;
+    text-align: center;
+}
+
+.btnSubmit {
+    width: 40px;
+}
+
+.checkbox-cart-all {
+    width: 10%;
+    height: 20px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.span-chc > span {
+    margin-top: -6px;
+}
+
+.btnBayar {
+    padding:10px 40px;
+    background-color: #2CD77A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

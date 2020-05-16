@@ -5,7 +5,7 @@ import "./css/IndexLanding.css";
 class Footer extends Component {
     render(){
         return (
-            <div className="Footer">
+            <div className="Footer" id="footer">
                 <p>Tetang - Kontak - Syarat & Ketentuan <br /> @sayur - PT. Sayur Sehat Indonesia </p>
             </div>
         )

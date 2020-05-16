@@ -125,3 +125,11 @@ input[type="text"]:focus {
     font-weight: bold;
     font-size: 27px;
 }
+
+.card-icon {
+    margin-top: -5px;
+}
+
+.cart-icon:active {
+    background-color: none !important;
+}

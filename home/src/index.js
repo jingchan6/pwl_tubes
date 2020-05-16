@@ -9,14 +9,18 @@ import IndexLanding from './landingpage/index';
 import Login from './access/login';
 import Register from './access/register';
 
+//Shop
+import Cart from './shop/cart';
+
 import {Route, Link,Switch, BrowserRouter as Router} from 'react-router-dom';
 
 ReactDOM.render(
 <Router>
     <Switch>
         <Route exact path="/" component={IndexLanding} />
-        <Route exact path="/login" component={Login} />
-        <Route exact path="/register" component={Register} />
+        <Route path="/login" component={Login} />
+        <Route path="/register" component={Register} />
+        <Route path="/cart" component={Cart} />
     </Switch> 
 </Router>,  
   

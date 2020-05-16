@@ -29,7 +29,7 @@ class Login extends Component {
                                 <br /><br />
                                 <small>
                                     Belum punya akun ? 
-                                    <Link to="/Register">Register</Link>
+                                    <Link to="/Register"> Daftar</Link>
                                     <br></br>
                                     Lupa password ? 
                                     <a href=""> Reset Password</a>
