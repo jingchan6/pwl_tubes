@@ -41,13 +41,19 @@ class navbar extends Component {
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <Link to="/Login">Login</Link>
+                                <a class="nav-link" href="#">Kontak Kami</a>
                             </li>
                             <li>
-                                <i class="lni lni-cart font-cart"></i>
+                                <i class="lni lni-cart dropdown-menu-style font-cart"></i>
                             </li>
                             <li>
-                                <i class="lni lni-user font-user"></i>
+                                <div className="dropdown">
+                                <i class="lni lni-user font-user dropdown-menu-style" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <Link to="/Login" className="dropdown-item">Login</Link>
+                                        <Link to="/Register" className="dropdown-item">Register</Link>
+                                    </div>
+                                </div>
                             </li>
                             </ul>
                         </div>

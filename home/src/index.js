@@ -7,6 +7,7 @@ import * as serviceWorker from './serviceWorker';
 // landing
 import IndexLanding from './landingpage/index';
 import Login from './access/login';
+import Register from './access/register';
 
 import {Route, Link,Switch, BrowserRouter as Router} from 'react-router-dom';
 
@@ -15,6 +16,7 @@ ReactDOM.render(
     <Switch>
         <Route exact path="/" component={IndexLanding} />
         <Route exact path="/login" component={Login} />
+        <Route exact path="/register" component={Register} />
     </Switch> 
 </Router>,  
   

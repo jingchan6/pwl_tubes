@@ -1,0 +1,41 @@
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2CD77A;
+}
+
+.Login, .register {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+
+.login-form-all {
+    margin:100px 0;
+    padding: 0px 60px; 
+    position: relative;   
+}
+
+.form-controls {
+    width: 70%;
+    border: 1px solid rgb(228, 228, 228);
+    padding:8px 38px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.icon-login {
+    margin-left: 13px;
+    margin-top: -5px;
+    position: absolute;
+}
+
+.left {
+    text-align: left;
+}
+
+.full-img-login {
+    width: 100%;
+    height: 100vh;
+}

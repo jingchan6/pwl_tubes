@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import "./css/indexAccess.css";
 
+import {Route, Link, Switch, BrowserRouter as Router} from 'react-router-dom';
 
 // membuat sebuah component dengan nama Baca
 class Login extends Component {
@@ -7,25 +9,32 @@ class Login extends Component {
         return (
             <div className="Login">
                 <div className="row">
-                    <div className="col-md-6">
-                        <img src="https://www.freevector.com/uploads/vector/preview/29602/grocery_shopping-01.jpg"></img>
+                    <div className="col-md-7">
+                        <img class="full-img-login" src="https://www.freevector.com/uploads/vector/preview/29602/grocery_shopping-01.jpg"></img>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-5 login-form-all">
+                        <h2>Hasil Panen</h2>
+                        <p>Dapatkan sayur dan buah Segar Setiap Hari</p>
                         <form>
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                <label><i class="lni lni-user icon-login"></i></label>
+                                <input type="email" class="form-controls" aria-describedby="emailHelp" placeholder="Enter email" />
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputPassword1">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+                                <label><i class="lni lni-key icon-login"></i></label>
+                                <input type="password" class="form-controls" placeholder="Password" />
                             </div>
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            <button type="submit" class="btn btn-primary">Masuk</button>
+                            <div class="left">
+                                <br /><br />
+                                <small>
+                                    Belum punya akun ? 
+                                    <Link to="/Register">Register</Link>
+                                    <br></br>
+                                    Lupa password ? 
+                                    <a href=""> Reset Password</a>
+                                </small>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
                 </div>
